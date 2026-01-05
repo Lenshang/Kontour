@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KontourApp.MainPage">
+
+    <Grid Padding="20" RowSpacing="15">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- 标题栏 -->
+        <Border Grid.Row="0" 
+                BackgroundColor="{AppThemeBinding Light=#F3F4F6, Dark=#1F2937}"
+                Padding="20"
+                StrokeThickness="0">
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="10"/>
+            </Border.StrokeShape>
+            <VerticalStackLayout Spacing="5">
+                <Label Text="Kontour Desktop App"
+                       FontSize="28"
+                       FontAttributes="Bold"
+                       TextColor="{AppThemeBinding Light=#1F2937, Dark=#F9FAFB}"/>
+                <Label Text="基于 .NET MAUI 的跨平台桌面应用"
+                       FontSize="14"
+                       TextColor="{AppThemeBinding Light=#6B7280, Dark=#9CA3AF}"/>
+            </VerticalStackLayout>
+        </Border>
+
+        <!-- 功能区域 -->
+        <Border Grid.Row="1"
+                BackgroundColor="{AppThemeBinding Light=#FFFFFF, Dark=#374151}"
+                Padding="20"
+                StrokeThickness="1"
+                Stroke="{AppThemeBinding Light=#E5E7EB, Dark=#4B5563}">
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="10"/>
+            </Border.StrokeShape>
+            <VerticalStackLayout Spacing="10">
+                <Label Text="快速操作"
+                       FontSize="18"
+                       FontAttributes="Bold"
+                       TextColor="{AppThemeBinding Light=#374151, Dark=#F3F4F6}"/>
+                <Button x:Name="CounterBtn"
+                        Text="点击计数器 (0)"
+                        Clicked="OnCounterClicked"
+                        BackgroundColor="#8B5CF6"
+                        TextColor="White"
+                        CornerRadius="8"
+                        HeightRequest="45"/>
+            </VerticalStackLayout>
+        </Border>
+
+        <!-- 内容区域 -->
+        <Border Grid.Row="2"
+                BackgroundColor="{AppThemeBinding Light=#FFFFFF, Dark=#374151}"
+                Padding="20"
+                Margin="0,0,0,0"
+                StrokeThickness="1"
+                Stroke="{AppThemeBinding Light=#E5E7EB, Dark=#4B5563}">
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="10"/>
+            </Border.StrokeShape>
+            <ScrollView>
+                <VerticalStackLayout Spacing="15">
+                    <Label Text="平台信息"
+                           FontSize="18"
+                           FontAttributes="Bold"
+                           TextColor="{AppThemeBinding Light=#374151, Dark=#F3F4F6}"/>
+                    
+                    <Frame BorderColor="{AppThemeBinding Light=#E5E7EB, Dark=#4B5563}"
+                           BackgroundColor="{AppThemeBinding Light=#F9FAFB, Dark=#1F2937}"
+                           Padding="15"
+                           CornerRadius="8">
+                        <VerticalStackLayout Spacing="8">
+                            <Label>
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="✓ " FontSize="16" TextColor="#10B981"/>
+                                        <Span Text="Windows 桌面" FontSize="14" TextColor="{AppThemeBinding Light=#374151, Dark=#F3F4F6}"/>
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                            <Label>
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="✓ " FontSize="16" TextColor="#10B981"/>
+                                        <Span Text="macOS (MacCatalyst)" FontSize="14" TextColor="{AppThemeBinding Light=#374151, Dark=#F3F4F6}"/>
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                            <Label>
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="✓ " FontSize="16" TextColor="#10B981"/>
+                                        <Span Text="Android" FontSize="14" TextColor="{AppThemeBinding Light=#374151, Dark=#F3F4F6}"/>
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                            <Label>
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="✓ " FontSize="16" TextColor="#10B981"/>
+                                        <Span Text="iOS" FontSize="14" TextColor="{AppThemeBinding Light=#374151, Dark=#F3F4F6}"/>
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                        </VerticalStackLayout>
+                    </Frame>
+
+                    <Label Text="技术栈"
+                           FontSize="18"
+                           FontAttributes="Bold"
+                           Margin="0,10,0,0"
+                           TextColor="{AppThemeBinding Light=#374151, Dark=#F3F4F6}"/>
+                    
+                    <Frame BorderColor="{AppThemeBinding Light=#E5E7EB, Dark=#4B5563}"
+                           BackgroundColor="{AppThemeBinding Light=#F9FAFB, Dark=#1F2937}"
+                           Padding="15"
+                           CornerRadius="8">
+                        <VerticalStackLayout Spacing="8">
+                            <Label Text="• .NET 10 (最新版)" 
+                                   FontSize="14" 
+                                   TextColor="{AppThemeBinding Light=#374151, Dark=#F3F4F6}"/>
+                            <Label Text="• .NET MAUI (跨平台UI框架)" 
+                                   FontSize="14" 
+                                   TextColor="{AppThemeBinding Light=#374151, Dark=#F3F4F6}"/>
+                            <Label Text="• XAML (声明式UI)" 
+                                   FontSize="14" 
+                                   TextColor="{AppThemeBinding Light=#374151, Dark=#F3F4F6}"/>
+                            <Label Text="• C# 13" 
+                                   FontSize="14" 
+                                   TextColor="{AppThemeBinding Light=#374151, Dark=#F3F4F6}"/>
+                        </VerticalStackLayout>
+                    </Frame>
+                </VerticalStackLayout>
+            </ScrollView>
+        </Border>
+
+        <!-- 底部状态栏 -->
+        <Border Grid.Row="3"
+                BackgroundColor="{AppThemeBinding Light=#F3F4F6, Dark=#1F2937}"
+                Padding="15,10"
+                StrokeThickness="0">
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="8"/>
+            </Border.StrokeShape>
+            <Label x:Name="StatusLabel"
+                   Text="就绪"
+                   FontSize="12"
+                   TextColor="{AppThemeBinding Light=#6B7280, Dark=#9CA3AF}"
+                   HorizontalOptions="Start"/>
+        </Border>
+    </Grid>
+
+</ContentPage>

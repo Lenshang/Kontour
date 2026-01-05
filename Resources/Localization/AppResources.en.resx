@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" msdata:Ordinal="5" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  
+  <data name="AppName" xml:space="preserve">
+    <value>File Explorer</value>
+  </data>
+  <data name="FileType" xml:space="preserve">
+    <value>File Type:</value>
+  </data>
+  <data name="ShowFolders" xml:space="preserve">
+    <value>Show Folders</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Size" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="ModifiedDate" xml:space="preserve">
+    <value>Modified Date</value>
+  </data>
+  <data name="Audio" xml:space="preserve">
+    <value>Audio:</value>
+  </data>
+  <data name="Ready" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <data name="NoFavorites" xml:space="preserve">
+    <value>No Favorites</value>
+  </data>
+  <data name="Drive" xml:space="preserve">
+    <value>Drive</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Total:{0}</value>
+  </data>
+  <data name="Available" xml:space="preserve">
+    <value>Available:{0}</value>
+  </data>
+  <data name="DecreaseTreeWidth" xml:space="preserve">
+    <value>Decrease Tree Width</value>
+  </data>
+  <data name="IncreaseTreeWidth" xml:space="preserve">
+    <value>Increase Tree Width</value>
+  </data>
+  
+  <!-- Status Messages -->
+  <data name="Playing" xml:space="preserve">
+    <value>Playing: {0}</value>
+  </data>
+  <data name="Paused" xml:space="preserve">
+    <value>Paused</value>
+  </data>
+  <data name="DrivesFound" xml:space="preserve">
+    <value>Found {0} drives</value>
+  </data>
+  <data name="CannotAccessPath" xml:space="preserve">
+    <value>Cannot access path: {0}</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error: {0}</value>
+  </data>
+  <data name="FilesDisplay" xml:space="preserve">
+    <value>Showing {0}/{1} files, {2} folders (filtered)</value>
+  </data>
+  <data name="FilesTotal" xml:space="preserve">
+    <value>Total {0} files, {1} folders</value>
+  </data>
+  <data name="AlreadyInFavorites" xml:space="preserve">
+    <value>{0} already in favorites</value>
+  </data>
+  <data name="AddedToFavorites" xml:space="preserve">
+    <value>Added {0} to favorites</value>
+  </data>
+  <data name="RemovedFromFavorites" xml:space="preserve">
+    <value>Removed {0} from favorites</value>
+  </data>
+  <data name="NoPreviewAudio" xml:space="preserve">
+    <value>No preview audio found for {0}</value>
+  </data>
+  
+  <!-- Context Menu -->
+  <data name="AddToFavorites" xml:space="preserve">
+    <value>⭐ Add to Favorites</value>
+  </data>
+  
+  <!-- Navigation and Location -->
+  <data name="LocatingFolder" xml:space="preserve">
+    <value>Locating target folder...</value>
+  </data>
+  <data name="LocatedTo" xml:space="preserve">
+    <value>Located to: {0}</value>
+  </data>
+  <data name="ScrollEventNotSubscribed" xml:space="preserve">
+    <value>Warning: Scroll event not subscribed</value>
+  </data>
+  <data name="CannotLocateFolder" xml:space="preserve">
+    <value>Error: Cannot locate target folder</value>
+  </data>
+  <data name="DirectoryNotFound" xml:space="preserve">
+    <value>Error: Directory not found at level {0} [{1}]</value>
+  </data>
+</root>

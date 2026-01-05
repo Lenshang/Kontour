@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" msdata:Ordinal="5" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  
+  <data name="AppName" xml:space="preserve">
+    <value>檔案瀏覽器</value>
+  </data>
+  <data name="FileType" xml:space="preserve">
+    <value>檔案類型:</value>
+  </data>
+  <data name="ShowFolders" xml:space="preserve">
+    <value>顯示資料夾</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>語言</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>名稱</value>
+  </data>
+  <data name="Size" xml:space="preserve">
+    <value>大小</value>
+  </data>
+  <data name="ModifiedDate" xml:space="preserve">
+    <value>修改日期</value>
+  </data>
+  <data name="Audio" xml:space="preserve">
+    <value>音訊:</value>
+  </data>
+  <data name="Ready" xml:space="preserve">
+    <value>就緒</value>
+  </data>
+  <data name="NoFavorites" xml:space="preserve">
+    <value>暫無我的最愛</value>
+  </data>
+  <data name="Drive" xml:space="preserve">
+    <value>磁碟機</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>總計:{0}</value>
+  </data>
+  <data name="Available" xml:space="preserve">
+    <value>可用:{0}</value>
+  </data>
+  <data name="DecreaseTreeWidth" xml:space="preserve">
+    <value>縮小樹寬度</value>
+  </data>
+  <data name="IncreaseTreeWidth" xml:space="preserve">
+    <value>增大樹寬度</value>
+  </data>
+  
+  <!-- 狀態訊息 -->
+  <data name="Playing" xml:space="preserve">
+    <value>正在播放: {0}</value>
+  </data>
+  <data name="Paused" xml:space="preserve">
+    <value>已暫停</value>
+  </data>
+  <data name="DrivesFound" xml:space="preserve">
+    <value>發現 {0} 個磁碟機</value>
+  </data>
+  <data name="CannotAccessPath" xml:space="preserve">
+    <value>無法存取路徑: {0}</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>錯誤: {0}</value>
+  </data>
+  <data name="FilesDisplay" xml:space="preserve">
+    <value>顯示 {0}/{1} 個檔案, {2} 個資料夾 (已過濾)</value>
+  </data>
+  <data name="FilesTotal" xml:space="preserve">
+    <value>共 {0} 個檔案, {1} 個資料夾</value>
+  </data>
+  <data name="AlreadyInFavorites" xml:space="preserve">
+    <value>{0} 已在我的最愛中</value>
+  </data>
+  <data name="AddedToFavorites" xml:space="preserve">
+    <value>已新增 {0} 到我的最愛</value>
+  </data>
+  <data name="RemovedFromFavorites" xml:space="preserve">
+    <value>已從我的最愛移除 {0}</value>
+  </data>
+  <data name="NoPreviewAudio" xml:space="preserve">
+    <value>未找到 {0} 的預覽音訊</value>
+  </data>
+  
+  <!-- 右鍵選單 -->
+  <data name="AddToFavorites" xml:space="preserve">
+    <value>⭐ 新增到我的最愛</value>
+  </data>
+  
+  <!-- 導航定位 -->
+  <data name="LocatingFolder" xml:space="preserve">
+    <value>定位到目標資料夾...</value>
+  </data>
+  <data name="LocatedTo" xml:space="preserve">
+    <value>已定位到: {0}</value>
+  </data>
+  <data name="ScrollEventNotSubscribed" xml:space="preserve">
+    <value>警告: 滚動事件未訂閱</value>
+  </data>
+  <data name="CannotLocateFolder" xml:space="preserve">
+    <value>錯誤: 無法定位到目標資料夾</value>
+  </data>
+  <data name="DirectoryNotFound" xml:space="preserve">
+    <value>錯誤: 第{0}層目錄未找到 [{1}]</value>
+  </data>
+</root>

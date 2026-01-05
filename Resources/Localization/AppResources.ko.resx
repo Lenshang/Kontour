@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" msdata:Ordinal="5" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  
+  <data name="AppName" xml:space="preserve">
+    <value>파일 탐색기</value>
+  </data>
+  <data name="FileType" xml:space="preserve">
+    <value>파일 형식:</value>
+  </data>
+  <data name="ShowFolders" xml:space="preserve">
+    <value>폴더 표시</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>언어</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>이름</value>
+  </data>
+  <data name="Size" xml:space="preserve">
+    <value>크기</value>
+  </data>
+  <data name="ModifiedDate" xml:space="preserve">
+    <value>수정한 날짜</value>
+  </data>
+  <data name="Audio" xml:space="preserve">
+    <value>오디오:</value>
+  </data>
+  <data name="Ready" xml:space="preserve">
+    <value>준비</value>
+  </data>
+  <data name="NoFavorites" xml:space="preserve">
+    <value>즐겨찾기 없음</value>
+  </data>
+  <data name="Drive" xml:space="preserve">
+    <value>드라이브</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>전체:{0}</value>
+  </data>
+  <data name="Available" xml:space="preserve">
+    <value>사용 가능:{0}</value>
+  </data>
+  <data name="DecreaseTreeWidth" xml:space="preserve">
+    <value>트리 너비 축소</value>
+  </data>
+  <data name="IncreaseTreeWidth" xml:space="preserve">
+    <value>트리 너비 확대</value>
+  </data>
+  
+  <!-- 상태 메시지 -->
+  <data name="Playing" xml:space="preserve">
+    <value>재생 중: {0}</value>
+  </data>
+  <data name="Paused" xml:space="preserve">
+    <value>일시중지됨</value>
+  </data>
+  <data name="DrivesFound" xml:space="preserve">
+    <value>{0}개의 드라이브를 찾았습니다</value>
+  </data>
+  <data name="CannotAccessPath" xml:space="preserve">
+    <value>경로에 액세스할 수 없음: {0}</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>오류: {0}</value>
+  </data>
+  <data name="FilesDisplay" xml:space="preserve">
+    <value>{0}/{1}개의 파일, {2}개의 폴더 표시 (필터링됨)</value>
+  </data>
+  <data name="FilesTotal" xml:space="preserve">
+    <value>총 {0}개의 파일, {1}개의 폴더</value>
+  </data>
+  <data name="AlreadyInFavorites" xml:space="preserve">
+    <value>{0}은(는) 이미 즐겨찾기에 있습니다</value>
+  </data>
+  <data name="AddedToFavorites" xml:space="preserve">
+    <value>{0}을(를) 즐겨찾기에 추가했습니다</value>
+  </data>
+  <data name="RemovedFromFavorites" xml:space="preserve">
+    <value>{0}을(를) 즐겨찾기에서 제거했습니다</value>
+  </data>
+  <data name="NoPreviewAudio" xml:space="preserve">
+    <value>{0}의 미리보기 오디오를 찾을 수 없습니다</value>
+  </data>
+  
+  <!-- 컨텍스트 메뉴 -->
+  <data name="AddToFavorites" xml:space="preserve">
+    <value>⭐ 즐겨찾기에 추가</value>
+  </data>
+  
+  <!-- 탐색 및 위치 -->
+  <data name="LocatingFolder" xml:space="preserve">
+    <value>대상 폴더 찾는 중...</value>
+  </data>
+  <data name="LocatedTo" xml:space="preserve">
+    <value>{0}으로 이동했습니다</value>
+  </data>
+  <data name="ScrollEventNotSubscribed" xml:space="preserve">
+    <value>경고: 스크롤 이벤트가 구독되지 않았습니다</value>
+  </data>
+  <data name="CannotLocateFolder" xml:space="preserve">
+    <value>오류: 대상 폴더를 찾을 수 없습니다</value>
+  </data>
+  <data name="DirectoryNotFound" xml:space="preserve">
+    <value>오류: {0}레벨 디렉토리를 찾을 수 없습니다 [{1}]</value>
+  </data>
+</root>
