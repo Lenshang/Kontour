@@ -78,13 +78,13 @@ public partial class FileExplorerPage
     {
         try
         {
-            var logFile = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "tooltip_debug.txt");
+            // var logFile = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "tooltip_debug.txt");
                 
             void Log(string message)
             {
                 var logMessage = $"[{DateTime.Now:HH:mm:ss.fff}] {message}";
                 System.Diagnostics.Debug.WriteLine(logMessage);
-                try { File.AppendAllText(logFile, logMessage + Environment.NewLine); } catch { }
+                // try { File.AppendAllText(logFile, logMessage + Environment.NewLine); } catch { }
             }
                 
             if (button == null)
@@ -147,10 +147,10 @@ public partial class FileExplorerPage
         }
         catch (Exception ex)
         {
-            var logFile = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "tooltip_debug.txt");
+            // var logFile = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "tooltip_debug.txt");
             var errorMsg = $"\u2717 \u7981\u7528{buttonName}Tooltip\u5f02\u5e38: {ex.Message}";
             System.Diagnostics.Debug.WriteLine(errorMsg);
-            try { File.AppendAllText(logFile, errorMsg + Environment.NewLine); } catch { }
+            // try { File.AppendAllText(logFile, errorMsg + Environment.NewLine); } catch { }
         }
     }
     
